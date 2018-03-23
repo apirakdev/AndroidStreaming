@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity
         goCoderBroadcastConfig = new WZBroadcastConfig(WZMediaConfig.FRAME_SIZE_1920x1080);
 
         // Set the connection properties for the target Wowza Streaming Engine server or Wowza Cloud account
-        goCoderBroadcastConfig.setHostAddress("192.168.20.35");
+        goCoderBroadcastConfig.setHostAddress("192.168.42.65");
         goCoderBroadcastConfig.setPortNumber(1935);
         goCoderBroadcastConfig.setApplicationName("live");
         goCoderBroadcastConfig.setStreamName("android_test");
